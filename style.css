@@ -1,0 +1,13 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.parallax-container {
+  height: 240px;
+}
+
+.parallax img {
+  background-position: 20px 10px;
+  filter: blur(2px);
+}
