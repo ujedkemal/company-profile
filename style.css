@@ -11,3 +11,6 @@
   background-position: 20px 10px;
   filter: blur(2px);
 }
+.clients img {
+  max-width: 150px;
+}
