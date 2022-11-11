@@ -23,21 +23,22 @@
     <title>Membuat compro</title>
   </head>
 
-  <body>
+  <body id="home" class="scrollspy">
     <!-- NavBar -->
     <div class="navbar-fixed">
       <nav class="purple darken-1">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Usaid Alkamil</a>
+            <a href="#home" class="brand-logo">Usaid Alkamil</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"
               ><i class="material-icons">menu</i></a
             >
             <ul class="right hide-on-med-and-down">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Our Service</a></li>
-              <li><a href="#">Portofolio</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#client">clients</a></li>
+              <li><a href="#services">Our Service</a></li>
+              <li><a href="#porfolio">Portofolio</a></li>
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -91,7 +92,7 @@
     <!-- akhir slider -->
 
     <!-- About Us -->
-    <section id="about" class="about">
+    <section id="about" class="about scrollspy">
       <div class="container">
         <div class="row">
           <h3 class="center light grey-text text-darken-3">About Us</h3>
@@ -124,19 +125,213 @@
     <!-- akhir About Us -->
 
     <!-- Client -->
-    <div class="parallax-container">
+    <div id="client" class="parallax-container scrollspy">
       <div class="parallax"><img src="../img/4.jpg" /></div>
 
       <div class="container clients">
         <h3 class="center light white-text">Our Client</h3>
         <div class="row">
-          <div class="col s4 center">
+          <div class="col s12 center">
             <img src="../img/gojek.png" alt="gojek" />
           </div>
         </div>
       </div>
     </div>
     <!-- akhir Client -->
+
+    <!-- services -->
+    <section id="services" class="services grey lighten-3 scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center grey-text text-darken-3">Our Service</h3>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons">add_to_queue</i>
+              <h5>Web Development</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi,
+                autem.
+              </p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons">book</i>
+              <h5>Software Development</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi,
+                autem.
+              </p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons">adjust</i>
+              <h5>Game Development</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi,
+                autem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Porfolio -->
+    <section id="porfolio" class="portfolio scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text darken-3">Portfolio</h3>
+        <div class="row">
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/1.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/2.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/3.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/4.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/1.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/2.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/3.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+          <div class="col m3 s12">
+            <div class="photo">
+              <img
+                src="../img/portfolio/4.png"
+                alt=""
+                class="responsive-img materialboxed"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir portfolio -->
+    <!-- Contact Us -->
+    <section id="contact" class="contact services grey lighten-3 scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text darken-3">Contact Us</h3>
+        <div class="row">
+          <div class="col m5 s12">
+            <div class="card-panel blue center white-text">
+              <i class="material-icons">email</i>
+              <h5>contact</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, dolorum!
+              </p>
+            </div>
+            <ul class="collection with-header center">
+              <li class="collection-header"><h4>Our Office</h4></li>
+              <li class="collection-item">Ujed Kemal</li>
+              <div class="collection-item">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, tempore!
+              </div>
+              <div class="collection-item">west java, Indonesia</div>
+            </ul>
+          </div>
+          <div class="col m7 s12">
+            <form action="">
+              <div class="card-panel">
+                <h5>please fill out this form</h5>
+                <div class="input-field">
+                  <input type="text" name="name" id="name" required />
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" name="email" id="email" class="validate" />
+                  <label for="email">email</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" name="phone" id="phone" />
+                  <label for="phone">Phone Number</label>
+                  <div class="input-field">
+                    <textarea
+                      name="message"
+                      id="message"
+                      class="materialize-textarea"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                  <button type="submit" class="btn blue darken-3">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir contact us -->
+
+    <!-- footer -->
+    <footer class="blue darken-2 white-text center">
+      <p class="flow-text">
+        Created with
+        <a
+          href="https://www.instagram.com/ujedkemal"
+          target="_blank"
+          class="orange-text fw-bold"
+          >Usaid Alkamil</a
+        >
+      </p>
+    </footer>
+    <!-- akhir footer -->
 
     <!--JavaScript at end of body for optimized loading-->
     <script
@@ -156,6 +351,17 @@
       });
       const parallax = document.querySelectorAll(".parallax");
       M.Parallax.init(parallax);
+
+      const materialbox = document.querySelectorAll(".materialboxed");
+      M.Materialbox.init(materialbox, {
+        inDuration: 300,
+        outDuration: 300,
+      });
+
+      const scroll = document.querySelectorAll(".scrollspy");
+      M.ScrollSpy.init(scroll, {
+        scrollOffset: 50,
+      });
     </script>
   </body>
 </html>

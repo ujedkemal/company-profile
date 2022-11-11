@@ -12,5 +12,11 @@
   filter: blur(2px);
 }
 .clients img {
-  max-width: 150px;
+  max-width: 500px;
+  margin-top: 100px;
+  filter: drop-shadow(2px 2px 2px rgb(255, 255, 255));
+}
+section,
+footer {
+  padding: 20px 0px;
 }
